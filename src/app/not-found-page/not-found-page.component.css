@@ -1,0 +1,29 @@
+.not-found-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of viewport height */
+  }
+  
+  .not-found-404 {
+    font-size: 8rem;
+    color: red;
+    animation: bounce 2s infinite;
+  }
+  
+  .not-found-message {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  

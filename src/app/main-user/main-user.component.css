@@ -1,0 +1,25 @@
+.user-section {
+    display: flex;
+    justify-content: space-between;
+        
+  }
+  
+  .user-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  .user-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .user-card h2 {
+    margin: 10px 0;
+  }
+  
